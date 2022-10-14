@@ -1,0 +1,168 @@
+body{
+  margin: 0px;
+  padding:0px;
+  background-image:url("banner.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:white;
+
+}
+
+.clearflix::after{
+  content:'';
+  display: block;
+  clear:both;
+}
+
+/* banner-start */
+
+.banner h2{
+  color:#fb7227;
+  margin-left:50px;
+  font-family:arial;
+  font-size:30px;
+  float:left; 
+  width:10%;
+  
+  
+}
+
+.nav{
+  float:right;
+  margin-right:340px;
+  margin-top:20px;
+  font-family:arial;
+  font-weight:bold;
+ 
+}
+
+li{
+  float:left;
+  margin-left:70px;
+  list-style:none;
+  padding-left:0px;
+  font-size:13px;
+}
+
+.search{
+  float:right;
+  margin-top:-25px;
+  margin-right:60px;
+}
+.search input{
+  width: 120px;
+  height:30px;
+  background-color: transparent;
+  border:1px solid #fb7227;
+  border-radius: 2px;
+  color:white;
+}
+
+.search button{
+  background-color: #fb7227;
+  color:white;
+  border: 0px;
+  height:33px;
+  width:80px;
+  border-radius:2px;
+  font-family:arial;
+}
+
+/* end banner */
+
+/* start content */
+
+
+.content{
+  width: 60%;
+  margin-top:100px;
+  margin-left:30px;
+  float:left;
+  
+
+}
+
+.content h1{
+  font-size: 50px;
+}
+
+ .kgf{
+  color: #fb7227;
+}
+
+.content p{
+  font-size:12px;
+  line-height:20px;
+  font-family:arial;
+}
+
+.content button{
+  font-family:arial;
+  background-color: #fb7227;
+  border:0px;
+  border-radius: 4px;
+  width:100px;
+  height:25px; 
+}
+
+/* end content */
+
+/* start right part */
+
+
+.right-part{
+  width:28%;
+  height:450px;
+  background-color: black;
+  border-radius: 8px;
+  float:right;
+ margin-top:100px;
+  margin-right:50px;
+  text-align:center;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+}
+
+.right-part button{
+  color:#fb7227;
+  background-color: #fff;
+  width:250px;
+  height:40px;
+  margin-top:20px;
+  font-family:arial;
+  font-size:20px;
+  border-radius: 8px;
+}
+.right-part input{
+  margin-top: 50px;
+  width:250px;
+  height:40px;
+  border: 0px ;
+  border-bottom: 2px solid #fb7227 ;
+  color: #fff;
+  background-color: black;
+}
+
+.right-part .rrr{
+  background-color: #fb7227;
+  color:black;
+  margin-top:30px;
+}
+
+.right-part p{
+  font-family: arial;
+}
+
+.right-part .fa{
+  margin-top:15px;
+  font-size:20px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: white;
+  color:black;
+  height:15px;
+  padding: 8px;
+
+}
+/* end right part */
